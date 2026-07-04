@@ -1,0 +1,323 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy - E-Commerce Website</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🛒 ShopEasy</h1>
+        <p>Your One Stop Shopping Destination</p>
+        <hr>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Products</a> |
+        <a href="#">Categories</a> |
+        <a href="#">Offers</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <hr>
+
+    <!-- Search -->
+    <section>
+
+        <h2>Search Product</h2>
+
+        <form>
+
+            <input type="search" placeholder="Search products">
+
+            <button>Search</button>
+
+        </form>
+
+    </section>
+
+    <hr>
+
+    <!-- Categories -->
+    <section>
+
+        <h2>Categories</h2>
+
+        <ul>
+            <li>Mobiles</li>
+            <li>Laptops</li>
+            <li>Fashion</li>
+            <li>Electronics</li>
+            <li>Home Appliances</li>
+        </ul>
+
+    </section>
+
+    <hr>
+
+    <!-- Featured Products -->
+    <section>
+
+        <h2>Featured Products</h2>
+
+        <table border="1" cellpadding="10">
+
+            <tr>
+                <th>Product</th>
+                <th>Image</th>
+                <th>Price</th>
+                <th>Rating</th>
+            </tr>
+
+            <tr>
+                <td>iPhone 16</td>
+                <td>
+                    <img src="iphone.jpg"
+                         width="120"
+                         alt="iPhone">
+                </td>
+                <td><del>₹89,999</del><br><b>₹79,999</b></td>
+                <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+
+            <tr>
+                <td>Gaming Laptop</td>
+                <td>
+                    <img src="laptop.jpg"
+                         width="120"
+                         alt="Laptop">
+                </td>
+                <td><b>₹65,000</b></td>
+                <td>⭐⭐⭐⭐</td>
+            </tr>
+
+            <tr>
+                <td>Smart Watch</td>
+                <td>
+                    <img src="watch.jpg"
+                         width="120"
+                         alt="Watch">
+                </td>
+                <td><b>₹4,999</b></td>
+                <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <hr>
+
+    <!-- Today's Offers -->
+    <section>
+
+        <h2>Today's Offers</h2>
+
+        <ol>
+            <li>50% OFF on Shoes</li>
+            <li>30% OFF on Mobiles</li>
+            <li>Buy 1 Get 1 Free on T-Shirts</li>
+        </ol>
+
+    </section>
+
+    <hr>
+
+    <!-- Product Details -->
+    <section>
+
+        <h2>Product Information</h2>
+
+        <details>
+
+            <summary>Click to View Product Description</summary>
+
+            <p>
+                This premium smartphone features a high-resolution display,
+                fast processor, long battery life, and an excellent camera.
+            </p>
+
+        </details>
+
+    </section>
+
+    <hr>
+
+    <!-- Order Form -->
+    <section>
+
+        <h2>Place Your Order</h2>
+
+        <form>
+
+            Name
+            <br>
+            <input type="text" placeholder="Enter Name">
+
+            <br><br>
+
+            Email
+            <br>
+            <input type="email" placeholder="Enter Email">
+
+            <br><br>
+
+            Phone
+            <br>
+            <input type="tel" placeholder="Phone Number">
+
+            <br><br>
+
+            Address
+            <br>
+            <textarea rows="5" cols="40"></textarea>
+
+            <br><br>
+
+            Product
+            <br>
+
+            <select>
+
+                <option>iPhone 16</option>
+                <option>Gaming Laptop</option>
+                <option>Smart Watch</option>
+
+            </select>
+
+            <br><br>
+
+            Quantity
+            <br>
+
+            <input type="number" min="1" max="10">
+
+            <br><br>
+
+            Payment Method
+
+            <br>
+
+            <input type="radio" name="pay">
+            Cash on Delivery
+
+            <br>
+
+            <input type="radio" name="pay">
+            UPI
+
+            <br>
+
+            <input type="radio" name="pay">
+            Credit Card
+
+            <br><br>
+
+            Gift Wrap
+
+            <input type="checkbox">
+
+            <br><br>
+
+            Delivery Date
+
+            <br>
+
+            <input type="date">
+
+            <br><br>
+
+            <button type="submit">
+                Place Order
+            </button>
+
+            <button type="reset">
+                Reset
+            </button>
+
+        </form>
+
+    </section>
+
+    <hr>
+
+    <!-- Progress -->
+    <section>
+
+        <h2>Website Progress</h2>
+
+        Orders Completed
+
+        <progress value="85" max="100"></progress>
+
+        <br><br>
+
+        Customer Satisfaction
+
+        <meter value="0.95"></meter>
+
+    </section>
+
+    <hr>
+
+    <!-- Promotional Video -->
+    <section>
+
+        <h2>Promotional Video</h2>
+
+        <video controls width="400">
+
+            <source src="promo.mp4" type="video/mp4">
+
+        </video>
+
+    </section>
+
+    <hr>
+
+    <!-- Background Music -->
+    <section>
+
+        <h2>Store Music</h2>
+
+        <audio controls>
+
+            <source src="music.mp3" type="audio/mpeg">
+
+        </audio>
+
+    </section>
+
+    <hr>
+
+    <!-- Contact -->
+    <footer>
+
+        <h3>Contact Us</h3>
+
+        <p>Email : support@shopeasy.com</p>
+
+        <p>Phone : +91 9876543210</p>
+
+        <p>
+            Visit our
+            <a href="https://www.shopeasy.com">
+                Official Website
+            </a>
+        </p>
+
+        <small>
+            © 2026 ShopEasy. All Rights Reserved.
+        </small>
+
+    </footer>
+
+</body>
+</html>
+```
