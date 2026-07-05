@@ -1,0 +1,308 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites Restaurant</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🍴 Delicious Bites Restaurant</h1>
+        <p><i>Fresh Food | Fast Delivery | Best Taste</i></p>
+        <hr>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#menu">Menu</a> |
+        <a href="#offers">Offers</a> |
+        <a href="#gallery">Gallery</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <!-- About -->
+        <section id="about">
+
+            <h2>About Our Restaurant</h2>
+
+            <img src="restaurant.jpg" alt="Restaurant" width="350">
+
+            <p>
+                Welcome to <b>Delicious Bites Restaurant</b>.
+                We serve <mark>fresh</mark> and
+                <strong>healthy</strong> food every day.
+            </p>
+
+            <details>
+                <summary>Read More</summary>
+
+                <p>
+                    We have been serving customers since 2015 with
+                    delicious food, excellent service, and affordable prices.
+                </p>
+
+            </details>
+
+        </section>
+
+        <hr>
+
+        <!-- Menu -->
+        <section id="menu">
+
+            <h2>Our Menu</h2>
+
+            <table border="1" cellpadding="10">
+
+                <tr>
+                    <th>Food</th>
+                    <th>Image</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <td>Pizza</td>
+                    <td>
+                        <img src="pizza.jpg" width="120" alt="Pizza">
+                    </td>
+                    <td>₹299</td>
+                </tr>
+
+                <tr>
+                    <td>Burger</td>
+                    <td>
+                        <img src="burger.jpg" width="120" alt="Burger">
+                    </td>
+                    <td>₹149</td>
+                </tr>
+
+                <tr>
+                    <td>Pasta</td>
+                    <td>
+                        <img src="pasta.jpg" width="120" alt="Pasta">
+                    </td>
+                    <td>₹249</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+        <hr>
+
+        <!-- Special Offers -->
+        <section id="offers">
+
+            <h2>Today's Offers</h2>
+
+            <ol>
+                <li>Buy 1 Pizza Get 1 Free</li>
+                <li>20% OFF on Burgers</li>
+                <li>Free Cold Drink with Pasta</li>
+            </ol>
+
+        </section>
+
+        <hr>
+
+        <!-- Services -->
+        <section>
+
+            <h2>Why Choose Us?</h2>
+
+            <ul>
+                <li>Fresh Ingredients</li>
+                <li>Fast Delivery</li>
+                <li>Affordable Prices</li>
+                <li>24×7 Customer Support</li>
+            </ul>
+
+        </section>
+
+        <hr>
+
+        <!-- Reservation -->
+        <section>
+
+            <h2>Table Reservation</h2>
+
+            <form>
+
+                Name
+                <br>
+                <input type="text" placeholder="Enter Your Name">
+
+                <br><br>
+
+                Email
+                <br>
+                <input type="email" placeholder="Enter Email">
+
+                <br><br>
+
+                Phone
+                <br>
+                <input type="tel" placeholder="Phone Number">
+
+                <br><br>
+
+                Date
+                <br>
+                <input type="date">
+
+                <br><br>
+
+                Time
+                <br>
+                <input type="time">
+
+                <br><br>
+
+                Number of Guests
+                <br>
+                <input type="number" min="1" max="20">
+
+                <br><br>
+
+                Meal Preference
+                <br>
+
+                <input type="radio" name="meal"> Veg
+
+                <input type="radio" name="meal"> Non-Veg
+
+                <br><br>
+
+                Extra Services
+                <br>
+
+                <input type="checkbox"> Birthday Decoration
+
+                <br>
+
+                <input type="checkbox"> Live Music
+
+                <br><br>
+
+                Message
+                <br>
+
+                <textarea rows="5" cols="40"></textarea>
+
+                <br><br>
+
+                <button type="submit">Book Table</button>
+
+                <button type="reset">Reset</button>
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- Gallery -->
+        <section id="gallery">
+
+            <h2>Gallery</h2>
+
+            <img src="food1.jpg" width="180" alt="Food 1">
+            <img src="food2.jpg" width="180" alt="Food 2">
+            <img src="food3.jpg" width="180" alt="Food 3">
+
+        </section>
+
+        <hr>
+
+        <!-- Video -->
+        <section>
+
+            <h2>Restaurant Tour</h2>
+
+            <video controls width="400">
+                <source src="restaurant.mp4" type="video/mp4">
+            </video>
+
+        </section>
+
+        <hr>
+
+        <!-- Audio -->
+        <section>
+
+            <h2>Background Music</h2>
+
+            <audio controls>
+                <source src="music.mp3" type="audio/mpeg">
+            </audio>
+
+        </section>
+
+        <hr>
+
+        <!-- Progress -->
+        <section>
+
+            <h2>Customer Satisfaction</h2>
+
+            Service Quality
+
+            <progress value="95" max="100"></progress>
+
+            <br><br>
+
+            Rating
+
+            <meter value="0.95"></meter>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>
+            📍 Varanasi, Uttar Pradesh
+        </p>
+
+        <p>
+            📞 +91 9876543210
+        </p>
+
+        <p>
+            ✉ deliciousbites@email.com
+        </p>
+
+        <p>
+            Follow us on
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">YouTube</a>
+        </p>
+
+        <small>
+            © 2026 Delicious Bites Restaurant. All Rights Reserved.
+        </small>
+
+    </footer>
+
+</body>
+
+</html>
+```
