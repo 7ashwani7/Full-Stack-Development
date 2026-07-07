@@ -1,0 +1,53 @@
+/* Background Color */
+body{
+    background-color: lightgray;
+}
+
+/* Text Color */
+h1{
+    color: blue;
+}
+
+/* Text Decoration Color */
+h2{
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+/* Text Shadow */
+h3{
+    color: purple;
+    text-shadow: 2px 2px 5px orange;
+}
+
+/* Paragraph */
+.paragraph{
+    color: brown;
+}
+
+/* Div */
+.box{
+    background-color: lightblue;
+    border: 3px solid red;
+    box-shadow: 5px 5px 10px gray;
+
+    width: 250px;
+    padding: 15px;
+}
+
+/* Input */
+input[type="text"]{
+    outline: 3px solid blue;
+    caret-color: red;
+}
+
+/* Checkbox & Radio */
+input[type="checkbox"],
+input[type="radio"]{
+    accent-color: green;
+}
+
+/* Progress */
+progress{
+    accent-color: orange;
+}
