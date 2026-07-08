@@ -1,0 +1,51 @@
+/* Body */
+body{
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+}
+
+/* color */
+h1{
+    color: blue;
+}
+
+/* text-align */
+h2{
+    text-align: center;
+    color: green;
+}
+
+/* text-decoration */
+h3{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+}
+
+/* text-shadow */
+h4{
+    color: purple;
+    text-shadow: 2px 2px 5px gray;
+}
+
+/* text-indent, line-height, word-spacing */
+p{
+    color: black;
+    text-indent: 50px;
+    line-height: 35px;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+/* letter-spacing */
+div{
+    letter-spacing: 5px;
+    color: brown;
+}
+
+/* text-transform */
+span{
+    text-transform: uppercase;
+    color: darkblue;
+}
+
