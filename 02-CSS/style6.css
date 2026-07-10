@@ -1,0 +1,24 @@
+/* Universal Selector (0) */
+*{
+    font-family: Arial, sans-serif;
+}
+
+/* Element Selector (1) */
+h1{
+    color: blue;
+}
+
+/* Class Selector (10) */
+.heading{
+    color: green;
+}
+
+/* ID Selector (100) */
+#title{
+    color: red;
+}
+
+/* Element Selector for paragraph */
+p{
+    color: purple;
+}
