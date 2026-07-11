@@ -3,14 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Color Properties</title>
+    <title>Types of CSS</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style1.css">
+
+    <!-- Internal CSS -->
+    <style>
+
+        h2{
+            color:blue;
+            text-align:center;
+        }
+
+        .internal{
+            color:green;
+            font-size:22px;
+        }
+
+    </style>
+
 </head>
 <body>
-    <!--Inline Styles-->
-    <h1 style="color: blue;">ASHWANI CHAUHAN</h1>
-    <h1 style="color: blue;">HELLO WORLD!</h1>
-    <p style="color: red;">This is a paragraph with red text.</p>
-    <button style="background-color: green; color: white; padding: 10px 20px; border: none; cursor: pointer;">Click Me</button>
+
+    <!-- Inline CSS -->
+    <h1 style="color:red; text-align:center;">
+        Inline CSS Example
+    </h1>
+
+    <!-- Internal CSS -->
+    <h2>
+        Internal CSS Example
+    </h2>
+
+    <p class="internal">
+        This paragraph uses Internal CSS.
+    </p>
+
+    <!-- External CSS -->
+    <h3>
+        External CSS Example
+    </h3>
+
+    <p class="external">
+        This paragraph uses External CSS.
+    </p>
 
 </body>
 </html>
