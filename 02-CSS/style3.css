@@ -1,53 +1,154 @@
-/* Background Color */
+/* ==========================
+   Root Font Size
+========================== */
+
+html{
+    font-size:16px;
+}
+
+/* ==========================
+   Body
+========================== */
+
 body{
-    background-color: lightgray;
+    font-family:Arial, sans-serif;
+    padding:20px;
 }
 
-/* Text Color */
+/* ==========================
+   Named Color
+========================== */
+
 h1{
-    color: blue;
+    color:red;
 }
 
-/* Text Decoration Color */
+/* ==========================
+   HEX
+========================== */
+
 h2{
-    text-decoration: underline;
-    text-decoration-color: green;
+    color:#0066ff;
 }
 
-/* Text Shadow */
+/* ==========================
+   RGB
+========================== */
+
 h3{
-    color: purple;
-    text-shadow: 2px 2px 5px orange;
+    color:rgb(0,150,0);
 }
 
-/* Paragraph */
-.paragraph{
-    color: brown;
+/* ==========================
+   RGBA
+========================== */
+
+h4{
+    background:rgba(255,0,0,0.3);
+    padding:10px;
 }
 
-/* Div */
-.box{
-    background-color: lightblue;
-    border: 3px solid red;
-    box-shadow: 5px 5px 10px gray;
+/* ==========================
+   HSL
+========================== */
 
-    width: 250px;
-    padding: 15px;
+h5{
+    color:hsl(260,100%,40%);
 }
 
-/* Input */
-input[type="text"]{
-    outline: 3px solid blue;
-    caret-color: red;
+/* ==========================
+   HSLA
+========================== */
+
+h6{
+    background:hsla(200,100%,50%,0.4);
+    padding:10px;
 }
 
-/* Checkbox & Radio */
-input[type="checkbox"],
-input[type="radio"]{
-    accent-color: green;
+/* ==========================
+   PX
+========================== */
+
+.box1{
+
+    width:300px;
+
+    background:skyblue;
+
+    padding:20px;
+
+    margin-bottom:20px;
 }
 
-/* Progress */
-progress{
-    accent-color: orange;
+/* ==========================
+   Percentage
+========================== */
+
+.box2{
+
+    width:50%;
+
+    background:lightgreen;
+
+    padding:20px;
+
+    margin-bottom:20px;
+}
+
+/* ==========================
+   EM
+========================== */
+
+.box3{
+
+    font-size:2em;
+
+    background:lightpink;
+
+    padding:20px;
+
+    margin-bottom:20px;
+}
+
+/* ==========================
+   REM
+========================== */
+
+.box4{
+
+    font-size:2rem;
+
+    background:khaki;
+
+    padding:20px;
+
+    margin-bottom:20px;
+}
+
+/* ==========================
+   VW
+========================== */
+
+.box5{
+
+    width:60vw;
+
+    background:orange;
+
+    padding:20px;
+
+    margin-bottom:20px;
+}
+
+/* ==========================
+   VH
+========================== */
+
+.box6{
+
+    height:30vh;
+
+    background:lightcoral;
+
+    padding:20px;
 }

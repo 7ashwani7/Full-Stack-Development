@@ -1,51 +1,183 @@
-/* Body */
+/* ===============================
+   General Styling
+================================ */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-    font-family: Arial, sans-serif;
-    background-color: whitesmoke;
+
+    font-family:Arial, sans-serif;
+
+    padding:20px;
+
+    background:#f4f4f4;
 }
 
-/* color */
 h1{
-    color: blue;
+
+    text-align:center;
+
+    margin-bottom:30px;
 }
 
-/* text-align */
-h2{
-    text-align: center;
-    color: green;
-}
-
-/* text-decoration */
-h3{
-    text-decoration: underline;
-    text-decoration-color: red;
-    text-decoration-style: wavy;
-}
-
-/* text-shadow */
-h4{
-    color: purple;
-    text-shadow: 2px 2px 5px gray;
-}
-
-/* text-indent, line-height, word-spacing */
-p{
-    color: black;
-    text-indent: 50px;
-    line-height: 35px;
-    word-spacing: 2px;
-    text-align: center;
-}
-
-/* letter-spacing */
 div{
-    letter-spacing: 5px;
-    color: brown;
+
+    width:90%;
+
+    height:220px;
+
+    margin:30px auto;
+
+    color:white;
+
+    font-size:30px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border:8px solid black;
+
+    padding:20px;
 }
 
-/* text-transform */
-span{
-    text-transform: uppercase;
-    color: darkblue;
+/* ===============================
+   Background Color
+================================ */
+
+.color-box{
+
+    background-color:steelblue;
 }
 
+/* ===============================
+   Background Image
+================================ */
+
+.image-box{
+
+    background-image:url("background.jpg");
+
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+    background-size:300px 200px;
+
+    color:black;
+}
+
+/* ===============================
+   Cover
+================================ */
+
+.cover-box{
+
+    background-image:url("background.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+}
+
+/* ===============================
+   Contain
+================================ */
+
+.contain-box{
+
+    background-image:url("background.jpg");
+
+    background-size:contain;
+
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+    background-color:#ddd;
+
+    color:black;
+}
+
+/* ===============================
+   Fixed
+================================ */
+
+.fixed-box{
+
+    background-image:url("background.jpg");
+
+    background-size:cover;
+
+    background-attachment:fixed;
+
+    background-position:center;
+}
+
+/* ===============================
+   Background Origin
+================================ */
+
+.origin-box{
+
+    background-image:url("background.jpg");
+
+    background-origin:content-box;
+
+    background-repeat:no-repeat;
+
+    background-size:cover;
+}
+
+/* ===============================
+   Background Clip
+================================ */
+
+.clip-box{
+
+    background:orange;
+
+    background-clip:content-box;
+
+    color:black;
+}
+
+/* ===============================
+   Linear Gradient
+================================ */
+
+.linear-box{
+
+    background:linear-gradient(to right, red, orange, yellow);
+
+}
+
+/* ===============================
+   Radial Gradient
+================================ */
+
+.radial-box{
+
+    background:radial-gradient(circle, blue, cyan, white);
+
+    color:black;
+}
+
+/* ===============================
+   Background Shorthand
+================================ */
+
+.shorthand-box{
+
+    background:
+    #333
+    url("background.jpg")
+    no-repeat
+    center/cover;
+}

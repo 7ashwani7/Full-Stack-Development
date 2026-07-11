@@ -3,30 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Color Properties</title>
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <!--style tag-->
-    <style>
-        h1 {
-            color: blue;
-        }
-        p {
-            color: red;
-        }
-        button {
-            background-color: green;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-        }
-    </style>
 
-    <h1>ASHWANI CHAUHAN</h1>
-    <h1>HELLO WORLD!</h1>
-    <p>This is a paragraph with red text.</p>
-    <button>Click Me</button>
-    
+    <h1>Element Selector</h1>
+
+    <p class="green">
+        Class Selector
+    </p>
+
+    <h2 id="heading">
+        ID Selector
+    </h2>
+
+    <h3>Group Selector</h3>
+    <h4>Group Selector</h4>
+
+    <hr>
+
+    <div class="box">
+
+        <p>Descendant Selector</p>
+
+        <section>
+            <p>Nested Descendant Selector</p>
+        </section>
+
+    </div>
+
+    <hr>
+
+    <div class="parent">
+
+        <p>Direct Child Selector</p>
+
+        <div>
+            <p>Not Direct Child</p>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <h5>Adjacent Sibling</h5>
+
+    <p>Selected by +</p>
+
+    <p>Not Selected</p>
+
+    <hr>
+
+    <h6>General Sibling</h6>
+
+    <p>Selected by ~</p>
+
+    <p>Selected by ~</p>
+
+    <p>Selected by ~</p>
+
+    <hr>
+
+    <input type="text" placeholder="Text Input">
+
+    <br><br>
+
+    <input type="password" placeholder="Password">
+
 </body>
 </html>

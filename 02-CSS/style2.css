@@ -1,0 +1,88 @@
+/* ===========================
+   Universal Selector
+=========================== */
+
+*{
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+
+/* ===========================
+   Element Selector
+=========================== */
+
+h1{
+    color: red;
+}
+
+/* ===========================
+   Class Selector
+=========================== */
+
+.green{
+    color: green;
+    font-size: 22px;
+}
+
+/* ===========================
+   ID Selector
+=========================== */
+
+#heading{
+    color: blue;
+}
+
+/* ===========================
+   Group Selector
+=========================== */
+
+h3,
+h4{
+    background-color: lightgray;
+    padding: 10px;
+}
+
+/* ===========================
+   Descendant Selector
+=========================== */
+
+.box p{
+    color: orange;
+}
+
+/* ===========================
+   Child Selector
+=========================== */
+
+.parent > p{
+    color: purple;
+}
+
+/* ===========================
+   Adjacent Sibling Selector
+=========================== */
+
+h5 + p{
+    color: brown;
+    font-weight: bold;
+}
+
+/* ===========================
+   General Sibling Selector
+=========================== */
+
+h6 ~ p{
+    color: deeppink;
+}
+
+/* ===========================
+   Attribute Selector
+=========================== */
+
+input[type="text"]{
+    background-color: yellow;
+}
+
+input[type="password"]{
+    background-color: lightcyan;
+}
