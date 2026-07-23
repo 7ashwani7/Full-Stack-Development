@@ -1,0 +1,117 @@
+/* ==========================
+   Universal Selector
+========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==========================
+   Body
+========================== */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin: 25px 0 15px;
+}
+
+hr {
+    margin: 25px 0;
+}
+
+/* ==========================
+   Block
+========================== */
+
+.block {
+    display: block;
+    background: steelblue;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* ==========================
+   Inline
+========================== */
+
+.inline {
+    display: inline;
+    background: orange;
+    color: white;
+    padding: 10px;
+}
+
+/* ==========================
+   Inline Block
+========================== */
+
+.inline-block {
+    display: inline-block;
+    width: 120px;
+    height: 100px;
+    background: green;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    margin-right: 10px;
+}
+
+/* ==========================
+   Display None
+========================== */
+
+.hide-display {
+    display: none;
+}
+
+.normal {
+    background: lightgreen;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+/* ==========================
+   Visibility Hidden
+========================== */
+
+.hide-visibility {
+    visibility: hidden;
+    background: crimson;
+    padding: 15px;
+}
+
+/* ==========================
+   Opacity
+========================== */
+
+.opacity-box {
+    background: purple;
+    color: white;
+    padding: 20px;
+    opacity: 0.5;
+}
+
+/* ==========================
+   Overflow
+========================== */
+
+.overflow-box {
+    width: 300px;
+    height: 100px;
+    background: lightblue;
+    padding: 15px;
+    overflow: auto;
+}
