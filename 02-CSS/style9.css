@@ -1,0 +1,119 @@
+/* ==========================
+   Universal Selector
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    padding:20px;
+    background:#f5f5f5;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+h2{
+    margin:30px 0 15px;
+}
+
+/* ==========================
+   Common Container
+========================== */
+
+.container{
+
+    display:flex;
+
+    border:2px solid black;
+
+    margin-bottom:30px;
+
+    padding:10px;
+
+    background:white;
+
+    gap:10px;
+}
+
+/* ==========================
+   Common Item
+========================== */
+
+.item{
+
+    width:80px;
+
+    height:80px;
+
+    background:steelblue;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:24px;
+}
+
+/* ==========================
+   Row
+========================== */
+
+.row{
+
+    flex-direction:row;
+}
+
+/* ==========================
+   Center
+========================== */
+
+.center{
+
+    justify-content:center;
+}
+
+/* ==========================
+   Space Between
+========================== */
+
+.between{
+
+    justify-content:space-between;
+}
+
+/* ==========================
+   Align Center
+========================== */
+
+.align-center{
+
+    height:200px;
+
+    align-items:center;
+}
+
+/* ==========================
+   Wrap
+========================== */
+
+.wrap{
+
+    flex-wrap:wrap;
+
+    width:420px;
+
+    align-content:space-evenly;
+
+    height:300px;
+}
