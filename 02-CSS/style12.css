@@ -1,0 +1,143 @@
+/* ==========================
+   Universal Selector
+========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==========================
+   Body
+========================== */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 25px 0;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+/* ==========================
+   Grid Example
+========================== */
+
+.grid-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-template-rows: 120px 120px;
+
+    gap: 20px;
+
+    border: 2px solid black;
+
+    padding: 20px;
+
+    background: white;
+}
+
+.item {
+
+    background: steelblue;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 24px;
+}
+
+.item1 {
+
+    grid-column: span 2;
+}
+
+.item2 {
+
+    grid-row: span 2;
+}
+
+/* ==========================
+   Place Self
+========================== */
+
+.self-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-template-rows: 150px 150px;
+
+    gap: 20px;
+
+    border: 2px solid black;
+
+    padding: 20px;
+
+    background: white;
+}
+
+.box {
+
+    width: 80px;
+
+    height: 80px;
+
+    background: orange;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.special {
+
+    place-self: center;
+}
+
+/* ==========================
+   Responsive Cards
+========================== */
+
+.cards {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(200px, 1fr));
+
+    gap: 20px;
+}
+
+.card {
+
+    background: steelblue;
+
+    color: white;
+
+    padding: 40px;
+
+    text-align: center;
+
+    border-radius: 10px;
+}
