@@ -1,0 +1,160 @@
+/* ==========================
+   Universal Selector
+========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==========================
+   Body
+========================== */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin: 30px 0 15px;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+/* ==========================
+   Button
+========================== */
+
+.btn {
+    padding: 15px 30px;
+    border: none;
+    background: steelblue;
+    color: white;
+    cursor: pointer;
+
+    transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+    background: crimson;
+}
+
+/* ==========================
+   Common Box
+========================== */
+
+.box {
+    width: 150px;
+    height: 100px;
+    background: orange;
+}
+
+/* ==========================
+   Width Transition
+========================== */
+
+.width-box {
+    transition: width 1s ease;
+}
+
+.width-box:hover {
+    width: 350px;
+}
+
+/* ==========================
+   Multiple Transition
+========================== */
+
+.multi-box {
+    transition:
+        width 1s ease,
+        background-color 1s ease,
+        transform 0.8s ease;
+}
+
+.multi-box:hover {
+    width: 300px;
+    background: green;
+    transform: rotate(10deg);
+}
+
+/* ==========================
+   Delay
+========================== */
+
+.delay-box {
+    transition:
+        background-color 1s ease 1s;
+}
+
+.delay-box:hover {
+    background: purple;
+}
+
+/* ==========================
+   Timing Function
+========================== */
+
+.timing-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.timing {
+    width: 120px;
+    padding: 15px;
+    background: steelblue;
+    color: white;
+    text-align: center;
+}
+
+.linear {
+    transition: width 2s linear;
+}
+
+.linear:hover {
+    width: 350px;
+}
+
+.ease {
+    transition: width 2s ease;
+}
+
+.ease:hover {
+    width: 350px;
+}
+
+.ease-in {
+    transition: width 2s ease-in;
+}
+
+.ease-in:hover {
+    width: 350px;
+}
+
+.ease-out {
+    transition: width 2s ease-out;
+}
+
+.ease-out:hover {
+    width: 350px;
+}
+
+.ease-in-out {
+    transition: width 2s ease-in-out;
+}
+
+.ease-in-out:hover {
+    width: 350px;
+}
