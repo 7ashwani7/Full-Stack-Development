@@ -1,0 +1,117 @@
+/* ==========================
+   Universal Selector
+========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==========================
+   Body
+========================== */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin: 35px 0 15px;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+/* ==========================
+   Common Box
+========================== */
+
+.box {
+    width: 150px;
+    height: 100px;
+    background: steelblue;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: transform 0.5s ease;
+}
+
+/* ==========================
+   Translate
+========================== */
+
+.translate:hover {
+    transform: translate(80px, 20px);
+}
+
+/* ==========================
+   Rotate
+========================== */
+
+.rotate:hover {
+    transform: rotate(45deg);
+}
+
+/* ==========================
+   Scale
+========================== */
+
+.scale:hover {
+    transform: scale(1.4);
+}
+
+/* ==========================
+   Scale X
+========================== */
+
+.scale-x:hover {
+    transform: scaleX(1.8);
+}
+
+/* ==========================
+   Scale Y
+========================== */
+
+.scale-y:hover {
+    transform: scaleY(1.8);
+}
+
+/* ==========================
+   Skew
+========================== */
+
+.skew:hover {
+    transform: skew(20deg, 10deg);
+}
+
+/* ==========================
+   Transform Origin
+========================== */
+
+.origin {
+    transform-origin: top left;
+}
+
+.origin:hover {
+    transform: rotate(45deg);
+}
+
+/* ==========================
+   Multiple Transform
+========================== */
+
+.multiple:hover {
+    transform: translateX(60px) rotate(20deg) scale(1.2);
+}
