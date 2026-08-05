@@ -1,0 +1,160 @@
+/* ==========================
+   Universal Selector
+========================== */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+/* ==========================
+   Body
+========================== */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    padding: 30px;
+
+    background: #f4f4f4;
+}
+
+h1 {
+
+    margin-bottom: 20px;
+}
+
+/* ==========================
+   Buttons
+========================== */
+
+button {
+
+    padding: 12px 20px;
+
+    border: none;
+
+    cursor: pointer;
+
+    margin-right: 10px;
+}
+
+.primary {
+
+    background: steelblue;
+
+    color: white;
+}
+
+button:not(.primary) {
+
+    background: gray;
+
+    color: white;
+}
+
+button:hover {
+
+    background: green;
+}
+
+button:active {
+
+    transform: scale(.95);
+}
+
+/* ==========================
+   Input
+========================== */
+
+input {
+
+    padding: 10px;
+
+    width: 250px;
+}
+
+input:focus {
+
+    border: 2px solid blue;
+
+    outline: none;
+}
+
+/* ==========================
+   Links
+========================== */
+
+a {
+
+    text-decoration: none;
+}
+
+a:visited {
+
+    color: purple;
+}
+
+/* ==========================
+   List
+========================== */
+
+li:first-child {
+
+    color: red;
+}
+
+li:last-child {
+
+    color: blue;
+}
+
+li:nth-child(3) {
+
+    color: green;
+}
+
+/* ==========================
+   Table
+========================== */
+
+table {
+
+    width: 300px;
+
+    border-collapse: collapse;
+
+    margin: 20px 0;
+}
+
+td,
+th {
+
+    border: 1px solid black;
+
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+
+    background: #dddddd;
+}
+
+/* ==========================
+   Group Selectors
+========================== */
+
+:is(h2, h3) {
+
+    color: crimson;
+}
+
+:where(h2, h3) {
+
+    margin-top: 20px;
+}
