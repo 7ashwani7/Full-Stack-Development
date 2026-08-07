@@ -1,0 +1,105 @@
+/* ==========================
+   Universal Selector
+========================== */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+/* ==========================
+   Body
+========================== */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    padding: 30px;
+
+    background: #f4f4f4;
+
+}
+
+/* ==========================
+   Container
+========================== */
+
+.container {
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    border: 2px solid #ddd;
+
+}
+
+.container h2 {
+
+    margin-bottom: 20px;
+
+}
+
+/* ==========================
+   Descendant Selector
+========================== */
+
+.container p {
+
+    padding: 8px;
+
+}
+
+/* ==========================
+   Child Selector
+========================== */
+
+.container>p {
+
+    background: #d1ecf1;
+
+}
+
+/* ==========================
+   Adjacent Sibling
+========================== */
+
+h3+p {
+
+    color: green;
+
+    font-weight: bold;
+
+}
+
+/* ==========================
+   General Sibling
+========================== */
+
+h3~p {
+
+    border-left: 4px solid crimson;
+
+    padding-left: 10px;
+
+}
+
+/* ==========================
+   Combined Selector
+========================== */
+
+.container>section p {
+
+    background: orange;
+
+    color: white;
+
+}
