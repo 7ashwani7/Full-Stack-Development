@@ -1,0 +1,170 @@
+/* ==========================
+   Universal Selector
+========================== */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+/* ==========================
+   Body
+========================== */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: #f4f4f4;
+
+    padding: 20px;
+
+}
+
+/* ==========================
+   Header
+========================== */
+
+header {
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+}
+
+h1 {
+
+    font-size: clamp(2rem, 5vw, 3.5rem);
+
+}
+
+/* ==========================
+   Container
+========================== */
+
+.container {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 20px;
+
+}
+
+/* ==========================
+   Common Box
+========================== */
+
+.box {
+
+    height: 120px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    font-weight: bold;
+
+    border-radius: 10px;
+
+}
+
+/* ==========================
+   calc()
+========================== */
+
+.calc-box {
+
+    width: calc(100% - 20px);
+
+    background: steelblue;
+
+}
+
+/* ==========================
+   min()
+========================== */
+
+.min-box {
+
+    width: min(250px, 100%);
+
+    background: green;
+
+}
+
+/* ==========================
+   max()
+========================== */
+
+.max-box {
+
+    width: max(180px, 60%);
+
+    background: crimson;
+
+}
+
+/* ==========================
+   clamp()
+========================== */
+
+.clamp-box {
+
+    font-size: clamp(1rem, 3vw, 2rem);
+
+    background: purple;
+
+}
+
+/* ==========================
+   rgb()
+========================== */
+
+.rgb-box {
+
+    background: rgb(255, 140, 0);
+
+}
+
+/* ==========================
+   rgba()
+========================== */
+
+.rgba-box {
+
+    background: rgba(30, 144, 255, .6);
+
+}
+
+/* ==========================
+   hsl()
+========================== */
+
+.hsl-box {
+
+    background: hsl(120, 70%, 45%);
+
+}
+
+/* ==========================
+   hsla()
+========================== */
+
+.hsla-box {
+
+    background: hsla(320, 70%, 45%, .6);
+
+}
