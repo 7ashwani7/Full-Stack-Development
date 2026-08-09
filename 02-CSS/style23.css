@@ -1,0 +1,95 @@
+/* ==========================
+   Universal Selector
+========================== */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+/* ==========================
+   Body
+========================== */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    padding: 30px;
+
+}
+
+/* ==========================
+   Element Selector
+========================== */
+
+h1 {
+
+    color: blue;
+
+}
+
+/* Specificity = 1 */
+
+/* ==========================
+   Class Selector
+========================== */
+
+.title {
+
+    color: green;
+
+}
+
+/* Specificity = 10 */
+
+/* ==========================
+   ID Selector
+========================== */
+
+#heading {
+
+    color: red;
+
+}
+
+/* Specificity = 100 */
+
+/* ==========================
+   Descendant Selector
+========================== */
+
+.container p {
+
+    color: orange;
+
+}
+
+/* Specificity = 11 */
+
+/* ==========================
+   Higher Specificity
+========================== */
+
+#main .text {
+
+    color: brown;
+
+}
+
+/* Specificity = 110 */
+
+/* ==========================
+   Important
+========================== */
+
+.text {
+
+    color: black !important;
+
+}
