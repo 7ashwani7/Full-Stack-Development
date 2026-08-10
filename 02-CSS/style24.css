@@ -1,0 +1,83 @@
+/* ==========================
+   Universal Selector
+========================== */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+/* ==========================
+   Body
+========================== */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    padding: 30px;
+
+    background: #f4f4f4;
+
+}
+
+/* ==========================
+   Parent
+========================== */
+
+.container {
+
+    color: steelblue;
+
+    font-size: 20px;
+
+    border: 2px solid #333;
+
+    padding: 20px;
+
+}
+
+/* ==========================
+   Specificity
+========================== */
+
+h1 {
+
+    color: green;
+
+}
+
+#title {
+
+    color: crimson;
+
+}
+
+/* ==========================
+   Inherit
+========================== */
+
+button {
+
+    color: inherit;
+
+    font-size: inherit;
+
+    padding: 10px 20px;
+
+}
+
+/* ==========================
+   Initial
+========================== */
+
+.reset {
+
+    color: initial;
+
+}
