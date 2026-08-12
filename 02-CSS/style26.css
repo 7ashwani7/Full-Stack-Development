@@ -1,0 +1,143 @@
+/* ==========================
+   Universal
+========================== */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+/* ==========================
+   Body
+========================== */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: #f4f4f4;
+
+    padding: 40px;
+
+}
+
+/* ==========================
+   Heading
+========================== */
+
+h1 {
+
+    margin-bottom: 30px;
+
+    text-align: center;
+
+}
+
+/* ==========================
+   Container
+========================== */
+
+.container {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 30px;
+
+    perspective: 800px;
+
+}
+
+/* ==========================
+   Box
+========================== */
+
+.box {
+
+    height: 120px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: steelblue;
+
+    color: white;
+
+    font-weight: bold;
+
+    border-radius: 10px;
+
+    transition: transform .4s ease;
+
+}
+
+/* ==========================
+   Translate
+========================== */
+
+.translate:hover {
+
+    transform: translateX(40px);
+
+}
+
+/* ==========================
+   Rotate
+========================== */
+
+.rotate:hover {
+
+    transform: rotate(20deg);
+
+}
+
+/* ==========================
+   Scale
+========================== */
+
+.scale:hover {
+
+    transform: scale(1.2);
+
+}
+
+/* ==========================
+   Skew
+========================== */
+
+.skew:hover {
+
+    transform: skew(15deg);
+
+}
+
+/* ==========================
+   Multiple
+========================== */
+
+.multi:hover {
+
+    transform:
+        translateY(-10px) rotate(8deg) scale(1.1);
+
+}
+
+/* ==========================
+   3D
+========================== */
+
+.threeD:hover {
+
+    transform: rotateY(45deg);
+
+}
