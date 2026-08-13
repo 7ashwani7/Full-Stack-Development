@@ -1,0 +1,199 @@
+/* ==========================
+   Universal
+========================== */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+/* ==========================
+   Body
+========================== */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: #f4f4f4;
+
+    padding: 40px;
+
+}
+
+/* ==========================
+   Heading
+========================== */
+
+h1 {
+
+    text-align: center;
+
+    margin-bottom: 40px;
+
+}
+
+/* ==========================
+   Common Box
+========================== */
+
+.box {
+
+    width: 120px;
+
+    height: 120px;
+
+    margin: 20px auto;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    background: steelblue;
+
+    border-radius: 10px;
+
+}
+
+/* ==========================
+   Move Animation
+========================== */
+
+.move {
+
+    animation:
+
+        moveBox 2s ease-in-out infinite alternate;
+
+}
+
+@keyframes moveBox {
+
+    from {
+
+        transform: translateX(-120px);
+
+    }
+
+    to {
+
+        transform: translateX(120px);
+
+    }
+
+}
+
+/* ==========================
+   Rotate Animation
+========================== */
+
+.rotate {
+
+    background: crimson;
+
+    animation:
+
+        rotateBox 3s linear infinite;
+
+}
+
+@keyframes rotateBox {
+
+    from {
+
+        transform: rotate(0deg);
+
+    }
+
+    to {
+
+        transform: rotate(360deg);
+
+    }
+
+}
+
+/* ==========================
+   Pulse Animation
+========================== */
+
+.pulse {
+
+    background: green;
+
+    animation:
+
+        pulseBox 1.5s ease-in-out infinite;
+
+}
+
+@keyframes pulseBox {
+
+    0% {
+
+        transform: scale(1);
+
+    }
+
+    50% {
+
+        transform: scale(1.2);
+
+    }
+
+    100% {
+
+        transform: scale(1);
+
+    }
+
+}
+
+/* ==========================
+   Loader
+========================== */
+
+.loader {
+
+    width: 70px;
+
+    height: 70px;
+
+    margin: 40px auto;
+
+    border: 8px solid #ddd;
+
+    border-top: 8px solid steelblue;
+
+    border-radius: 50%;
+
+    animation:
+
+        spin 1s linear infinite;
+
+}
+
+@keyframes spin {
+
+    from {
+
+        transform: rotate(0deg);
+
+    }
+
+    to {
+
+        transform: rotate(360deg);
+
+    }
+
+}
