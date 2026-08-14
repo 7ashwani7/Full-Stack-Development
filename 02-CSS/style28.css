@@ -1,0 +1,120 @@
+/* ==========================
+   Universal
+========================== */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+/* ==========================
+   Body
+========================== */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: #f5f5f5;
+
+    padding: 40px;
+
+}
+
+/* ==========================
+   Heading
+========================== */
+
+h1 {
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+}
+
+/* ==========================
+   Gallery
+========================== */
+
+.gallery {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 20px;
+
+}
+
+/* ==========================
+   Images
+========================== */
+
+img {
+
+    width: 100%;
+
+    border-radius: 10px;
+
+    transition: filter .4s ease;
+
+}
+
+/* ==========================
+   Blur
+========================== */
+
+.blur:hover {
+
+    filter: blur(4px);
+
+}
+
+/* ==========================
+   Grayscale
+========================== */
+
+.gray:hover {
+
+    filter: grayscale(100%);
+
+}
+
+/* ==========================
+   Brightness
+========================== */
+
+.bright:hover {
+
+    filter: brightness(160%);
+
+}
+
+/* ==========================
+   Drop Shadow
+========================== */
+
+.shadow:hover {
+
+    filter: drop-shadow(8px 8px 12px rgba(0, 0, 0, .5));
+
+}
+
+/* ==========================
+   Combined Filters
+========================== */
+
+.combo:hover {
+
+    filter:
+
+        brightness(120%) contrast(140%) saturate(160%) drop-shadow(6px 6px 10px rgba(0, 0, 0, .4));
+
+}
