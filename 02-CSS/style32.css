@@ -1,0 +1,105 @@
+/* ==========================
+   Base
+========================== */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: #f4f4f4;
+
+    padding: 40px;
+
+}
+
+/* ==========================
+   Components
+========================== */
+
+.card {
+
+    width: 320px;
+
+    margin: auto;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    background: white;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+
+}
+
+.card--dark {
+
+    background: #333;
+
+    color: white;
+
+}
+
+.card__image {
+
+    width: 100%;
+
+    border-radius: 10px;
+
+}
+
+.card__title {
+
+    margin: 15px 0;
+
+    font-size: 24px;
+
+}
+
+.card__price {
+
+    color: #4CAF50;
+
+    margin-bottom: 20px;
+
+}
+
+/* ==========================
+   Buttons
+========================== */
+
+.button {
+
+    padding: 10px 20px;
+
+    border: none;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+
+}
+
+.button--primary {
+
+    background: royalblue;
+
+    color: white;
+
+}
+
+.button--primary:hover {
+
+    background: #2455c3;
+
+}
