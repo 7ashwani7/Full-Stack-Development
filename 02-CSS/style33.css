@@ -1,0 +1,77 @@
+/* ==========================
+   Variables
+========================== */
+
+$primary: royalblue;
+
+$radius: 10px;
+
+/* ==========================
+   Mixin
+========================== */
+
+@mixin center {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+/* ==========================
+   Card
+========================== */
+
+.card {
+
+    width: 320px;
+
+    margin: 40px auto;
+
+    padding: 20px;
+
+    border-radius: $radius;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+
+    text-align: center;
+
+    h2 {
+
+        margin-bottom: 15px;
+
+    }
+
+    p {
+
+        color: green;
+
+        margin-bottom: 20px;
+
+    }
+
+    button {
+
+        background: $primary;
+
+        color: white;
+
+        padding: 10px 20px;
+
+        border: none;
+
+        border-radius: 5px;
+
+        cursor: pointer;
+
+        &:hover {
+
+            background: darkblue;
+
+        }
+
+    }
+
+}
