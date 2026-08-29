@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bootstrap Collapse</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-light">
+
+    <div class="container py-5">
+
+        <h1 class="text-center mb-5">
+
+            Bootstrap Collapse Examples
+
+        </h1>
+
+        <h3>1. Basic Collapse</h3>
+
+        <button class="btn btn-primary mb-3" data-bs-toggle="collapse" data-bs-target="#basicCollapse">
+
+            Show / Hide
+
+        </button>
+
+        <div class="collapse" id="basicCollapse">
+
+            <div class="card card-body">
+
+                This is a basic Bootstrap Collapse example.
+
+            </div>
+
+        </div>
+
+        <hr>
+
+
+        <h3>2. Open by Default</h3>
+
+        <button class="btn btn-success mb-3" data-bs-toggle="collapse" data-bs-target="#defaultOpen">
+
+            Toggle Content
+
+        </button>
+
+        <div class="collapse show" id="defaultOpen">
+
+            <div class="card card-body">
+
+                This content is visible initially.
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <h3>3. Multiple Buttons</h3>
+
+        <button class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#multiCollapse">
+
+            Button 1
+
+        </button>
+
+        <button class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#multiCollapse">
+
+            Button 2
+
+        </button>
+
+        <div class="collapse mt-3" id="multiCollapse">
+
+            <div class="card card-body">
+
+                Both buttons control this same collapse.
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <h3>4. Multiple Sections</h3>
+
+        <button class="btn btn-dark mb-2" data-bs-toggle="collapse" data-bs-target="#section1">
+
+            Section 1
+
+        </button>
+
+        <button class="btn btn-secondary mb-2" data-bs-toggle="collapse" data-bs-target="#section2">
+
+            Section 2
+
+        </button>
+
+        <div class="collapse mb-3" id="section1">
+
+            <div class="card card-body">
+
+                HTML, CSS, Bootstrap
+
+            </div>
+
+        </div>
+
+        <div class="collapse" id="section2">
+
+            <div class="card card-body">
+
+                JavaScript, React
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <h3>5. Read More</h3>
+
+        <p>
+
+            Bootstrap is one of the most popular CSS frameworks...
+
+            <span class="collapse" id="readMore">
+
+                It provides responsive layouts, utility classes,
+                reusable UI components, and JavaScript plugins that
+                speed up web development significantly.
+
+            </span>
+
+        </p>
+
+        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#readMore">
+
+            Read More
+
+        </button>
+
+        <hr>
+
+        <h3>6. FAQ</h3>
+
+        <button class="btn btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#faq">
+
+            What is Bootstrap?
+
+        </button>
+
+        <div class="collapse mt-3" id="faq">
+
+            <div class="alert alert-info">
+
+                Bootstrap is a mobile-first CSS framework used
+                to build responsive websites quickly.
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
